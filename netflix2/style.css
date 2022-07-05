@@ -1,0 +1,265 @@
+/* *{
+font-family: Arial, Helvetica, sans-serif;
+
+} */
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('1.jpg');
+    
+}
+
+
+.topbar{
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.sign{
+    border: 2px solid rgb(255, 0, 0);
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 60px;
+    background-color:red;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 4px;
+    padding: 7px 17px;
+}
+.text{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin-top: 200px;
+}
+.toptext{
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    
+    
+}
+.middletext{
+    font-size: 35px;
+    font-weight: 400;
+   
+}
+.lowertext{
+
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.emailbox{
+display: flex;
+justify-content: center;
+width: 1500px;
+height: 60px;
+}
+.emailbox h2{
+    height: 55px;
+    width: 300px;
+
+    background-color: red;
+    margin-top: 0;
+    font-size: larger;
+    font-weight: 500;
+    
+    
+}
+.emailtype{
+
+    width: 600px;
+    height: 50px;
+}
+/* ********************************************************first page khtm**************************************************************** */
+.main{
+    height:500px ;
+    width: 100vw;
+    background: black;
+    display: flex;
+}
+.card{
+margin-left: 800px;
+    width: 300px;
+height: 100px;
+    position: absolute;
+}
+.card video{
+   margin-top: -500px;
+   margin-left: 75px;
+padding-bottom: 130px;
+position: relative;
+}
+.content1{
+margin-left: 200px;
+padding-top: 100px;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content1 h1{
+
+   font-size: 59px;
+}
+.content1 h3{
+
+   font-size: 25px;
+   text-align: left;
+}
+.gap{
+       width: 100vw;
+       height: 8px;
+       opacity: 70%;
+       background-color: black;
+        background-image: linear-gradient(0deg, rgb(70, 67, 67), rgb(0, 0, 0));
+
+      
+
+}
+.main2{
+    height:500px ;
+    width: 100vw;
+    background: black;
+    display: flex;
+}
+.content2{
+    margin-left: 800px;
+    padding-top: 100px;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+.content2 h1{
+font-size:50px;
+
+}
+.content2 h3{
+font-size:25px;
+
+}
+.card2{
+    margin-left: 70px;
+        width: 300px;
+    height: 100px;
+        position: absolute;
+    }
+     .stranger{
+    height: 100px;
+    width: 350px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    position: relative;
+    margin-top: -90px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: left;
+background-color: black;
+}
+
+.photo{
+    width: 62px;
+    height: 67px;
+   margin-top: 10px;
+   margin-left: 8px;
+}
+
+.textst {
+    font-family: Arial, Helvetica, sans-serif;
+     margin-left: 10px;
+}
+
+.textst h3{
+    font-size: 20px;
+    color: aliceblue;
+
+}
+.textst h4{
+    font-size: 16px;
+    margin-top: -17PX;
+    
+    
+
+}
+
+.gif{
+margin-top: 20px;
+margin-left: 20px;
+}
+.gif1{
+width: 66px;
+height: 62px;
+border-radius: 5px;
+}
+.row{font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background: black;
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+}
+.row h2{
+  margin-bottom: -2px;
+    margin-left:10px;
+}
+.rowposter{
+    display: flex;
+   overflow-y: hidden;
+   overflow-x: scroll;
+   padding: 15px;
+}
+.rowposter::-webkit-scrollbar
+{
+   display: none;
+}
+
+.poster{
+
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    padding: 4px;
+   
+}
+.poster:hover{
+   transform: scale(1.08);
+}
+.row1{font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    background: black;
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+}
+.row1 h2{
+    margin-bottom: 5px;
+      margin-left:10px;
+  }
+  .poster1{
+
+    object-fit: contain;
+    max-height: 200px;
+    margin-right: 10px;
+    padding: 4px;
+   
+}
+.poster1:hover{
+    transform: scale(1.08);
+ }
+
+ 
